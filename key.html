@@ -1,0 +1,149 @@
+
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nhận Key — bot mod tvh</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family:'Poppins',sans-serif;
+      padding:20px;
+      background:linear-gradient(135deg,#e0e7ff,#f4f6fb);
+    }
+    .card {
+      max-width:720px;
+      margin:60px auto;
+      background:#fff;
+      padding:28px;
+      border-radius:16px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.1);
+      text-align:center;
+      animation:fadeIn 0.6s ease;
+    }
+    h2 {
+      margin-bottom:12px;
+      font-size:24px;
+      font-weight:600;
+      color:#0b63ff;
+    }
+    .key {
+      font-family:monospace;
+      padding:14px;
+      background:#f6f8ff;
+      border-radius:10px;
+      word-break:break-all;
+      font-size:16px;
+      color:#222;
+      position:relative;
+    }
+    .loading {
+      background:linear-gradient(90deg,#f6f8ff 25%,#e0e7ff 50%,#f6f8ff 75%);
+      background-size:200% 100%;
+      animation:shimmer 1.5s infinite;
+      color:transparent !important;
+    }
+    .btn {
+      padding:12px 16px;
+      border-radius:10px;
+      border:none;
+      cursor:pointer;
+      margin:10px;
+      font-weight:600;
+      font-size:15px;
+      transition:all 0.25s ease;
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+    }
+    .btn.primary {
+      background:#0b63ff;
+      color:#fff;
+      box-shadow:0 4px 12px rgba(11,99,255,0.3);
+    }
+    .btn.primary:hover {
+      background:#094fcc;
+      transform:translateY(-2px);
+    }
+    .btn.ghost {
+      background:#fff;
+      color:#0b63ff;
+      border:1px solid rgba(11,99,255,0.2);
+    }
+    .btn.ghost:hover {
+      background:#f0f5ff;
+      transform:translateY(-2px);
+    }
+    p.note {
+      margin-top:16px;
+      color:#666;
+      font-size:13px;
+    }
+    @keyframes shimmer {
+      0%{background-position:200% 0}
+      100%{background-position:-200% 0}
+    }
+    @keyframes fadeIn {
+      from{opacity:0;transform:translateY(20px)}
+      to{opacity:1;transform:translateY(0)}
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>🔑 Đây là KEY của bạn</h2>
+    <p>Sao chép key bên dưới rồi mở Telegram để dán vào bot.</p>
+
+    <div>
+      <div id="key" class="key loading">Đang tải key...</div>
+      <div style="margin-top:16px">
+        <button id="copyBtn" class="btn primary">📋 Sao chép</button>
+        <a id="openTg" class="btn ghost" target="_blank" rel="noopener">💬 Mở Telegram</a>
+      </div>
+    </div>
+
+    <p class="note">Nếu nút "Sao chép" không hoạt động, hãy chạm và giữ để chọn rồi copy thủ công.</p>
+  </div>
+
+<script>
+function getQueryParam(name){
+  return new URLSearchParams(window.location.search).get(name);
+}
+(function(){
+  const keyParam = getQueryParam('key') || getQueryParam('KEY') || getQueryParam('k');
+  const keyEl = document.getElementById('key');
+  const copyBtn = document.getElementById('copyBtn');
+  const openTg = document.getElementById('openTg');
+  const BOT_USERNAME = "modskinff_bot"; // username bot
+
+  if (!keyParam) {
+    keyEl.textContent = '❌ Không tìm thấy key trong URL. Ví dụ: ?key=KEY_pixelhud_xxx';
+    keyEl.classList.remove('loading');
+    copyBtn.disabled = true;
+    openTg.style.display = 'none';
+    return;
+  }
+
+  keyEl.textContent = keyParam;
+  keyEl.classList.remove('loading');
+  openTg.href = `https://t.me/${BOT_USERNAME}?start=${encodeURIComponent(keyParam)}`;
+
+  copyBtn.addEventListener('click', async function(){
+    try {
+      await navigator.clipboard.writeText(keyParam);
+      copyBtn.textContent = '✅ Đã sao chép';
+      setTimeout(()=> copyBtn.textContent = '📋 Sao chép', 2000);
+    } catch(e){
+      const range = document.createRange();
+      range.selectNodeContents(keyEl);
+      const sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+      alert('⚠️ Trình duyệt không cho phép sao chép tự động. Vui lòng nhấn Ctrl+C để sao chép thủ công.');
+    }
+  });
+})();
+</script>
+</body>
+</html>
