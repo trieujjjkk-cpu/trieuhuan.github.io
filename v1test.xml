@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<netguard>
+  <application>
+    <setting key="subnet" type="boolean" value="false" />
+    <setting key="reload_onconnectivity" type="boolean" value="true" />
+    <setting key="resolve" type="boolean" value="false" />
+    <setting key="disable_on_call" type="boolean" value="false" />
+    <setting key="dns2" type="string" value="94.140.15.15" />
+    <setting key="filter_udp" type="boolean" value="true" />
+    <setting key="dark_theme" type="boolean" value="true" />
+    <setting key="whitelist_roaming" type="boolean" value="false" />
+    <setting key="lockdown_other" type="boolean" value="true" />
+    <setting key="lan" type="boolean" value="true" />
+    <setting key="lockdown" type="boolean" value="false" />
+    <setting key="national_roaming" type="boolean" value="false" />
+    <setting key="pcap_file_size" type="string" value="0" />
+    <setting key="whitelist_other" type="boolean" value="false" />
+    <setting key="unmetered_4g" type="boolean" value="false" />
+    <setting key="hint_fairemail" type="boolean" value="false" />
+    <setting key="show_nointernet" type="boolean" value="true" />
+    <setting key="hint_push" type="boolean" value="false" />
+    <setting key="dns" type="string" value="94.140.14.14" />
+    <setting key="socks5_username" type="string" value="US" />
+    <setting key="pcap_record_size" type="string" value="0" />
+    <setting key="version" type="integer" value="2022011901" />
+    <setting key="wifi_homes" type="set" value="" />
+    <setting key="bg_startup_tracing" type="boolean" value="false" />
+    <setting key="hosts_url" type="string" value="https://www.netguard.me/hosts" />
+    <setting key="install" type="boolean" value="false" />
+    <setting key="use_metered" type="boolean" value="false" />
+    <setting key="nodoze" type="boolean" value="true" />
+    <setting key="stats_frequency" type="string" value="1000" />
+    <setting key="lockdown_wifi" type="boolean" value="true" />
+    <setting key="eu_roaming" type="boolean" value="false" />
+    <setting key="block_porn" type="boolean" value="false" />
+    <setting key="show_top" type="boolean" value="false" />
+    <setting key="show_user" type="boolean" value="true" />
+    <setting key="notify_access" type="boolean" value="false" />
+    <setting key="socks5_addr" type="string" value="212.83.143.60" />
+    <setting key="log_app" type="boolean" value="true" />
+    <setting key="log" type="boolean" value="false" />
+    <setting key="show_stats" type="boolean" value="false" />
+    <setting key="show_system" type="boolean" value="false" />
+    <setting key="enabled" type="boolean" value="false" />
+    <setting key="socks5_port" type="string" value="62785" />
+    <setting key="socks5_password" type="string" value="444" />
+    <setting key="manage_system" type="boolean" value="true" />
+    <setting key="pcap" type="boolean" value="false" />
+    <setting key="hint_usage" type="boolean" value="false" />
+    <setting key="stats_samples" type="string" value="90" />
+    <setting key="screen_other" type="boolean" value="false" />
+    <setting key="initialized" type="boolean" value="true" />
+    <setting key="theme" type="string" value="teal" />
+    <setting key="whitelist_wifi" type="boolean" value="false" />
+    <setting key="unmetered_2g" type="boolean" value="false" />
+    <setting key="runCount" type="integer" value="308" />
+    <setting key="use_hosts" type="boolean" value="true" />
+    <setting key="validate" type="string" value="dns.adguard.com" />
+    <setting key="handover" type="boolean" value="false" />
+    <setting key="screen_on" type="boolean" value="false" />
+    <setting key="update_check" type="boolean" value="true" />
+    <setting key="socks5_enabled" type="boolean" value="false" />
+    <setting key="debug_iab" type="boolean" value="false" />
+    <setting key="ip6" type="boolean" value="true" />
+    <setting key="filter" type="boolean" value="true" />
+    <setting key="auto_enable" type="string" value="0" />
+    <setting key="screen_delay" type="string" value="0" />
+    <setting key="watchdog" type="string" value="0" />
+    <setting key="hint_whitelist" type="boolean" value="false" />
+    <setting key="vpn6" type="string" value="2409:4064:238c:f56f::1f24:58b0" />
+    <setting key="organization" type="boolean" value="false" />
+    <setting key="vpn4" type="string" value="84.17.50.137" />
+    <setting key="loglevel" type="string" value="6" />
+    <setting key="screen_wifi" type="boolean" value="false" />
+    <setting key="tethering" type="boolean" value="true" />
+    <setting key="track_usage" type="boolean" value="false" />
+    <setting key="unmetered_3g" type="boolean" value="false" />
+  </application>
+  <wifi>
+    <setting key="com.fulldive.extension.dataguard" type="boolean" value="true" />
+    <setting key="com.google.android.apps.tachyon" type="boolean" value="true" />
+    <setting key="com.ionwizard.oggangs" type="boolean" value="true" />
+    <setting key="india.vpn_tap2free" type="boolean" value="true" />
+    <setting key="com.fast.free.unblock.secure.vpn" type="boolean" value="true" />
+    <setting key="com.banglatech.bangladeshvpn" type="boolean" value="true" />
+    <setting key="air.com.adobe.pstouchphone" type="boolean" value="true" />
+    <setting key="com.lazybean.vfiwalld" type="boolean" value="true" />
+    <setting key="com.winzo.gold" type="boolean" value="true" />
+    <setting key="com.ingame.sm.share" type="boolean" value="true" />
+    <setting key="com.esports.gamerjipro" type="boolean" value="true" />
+    <setting key="com.rummymomentVKSHBUW.CNIDBKD.jy" type="boolean" value="true" />
+    <setting key="com.linkedin.android" type="boolean" value="true" />
+    <setting key="in.amazon.mShop.android.shopping" type="boolean" value="true" />
+    <setting key="com.miui.notes" type="boolean" value="true" />
+    <setting key="com.handycloset.android.eraser" type="boolean" value="true" />
+    <setting key="com.temporary.email.pro" type="boolean" value="true" />
+    <setting key="com.test.prankpayment" type="boolean" value="true" />
+    <setting key="bin.mt.plus" type="boolean" value="true" />
+    <setting key="com.facebook.katana" type="boolean" value="true" />
+    <setting key="com.miui.weather2" type="boolean" value="true" />
+    <setting key="com.celzero.bravedns" type="boolean" value="true" />
+    <setting key="LEGION.CHRIS.SOY.TU.PAPA.GATO" type="boolean" value="true" />
+    <setting key="glip.gg" type="boolean" value="true" />
+    <setting key="com.xupstudio.volumefinetuner" type="boolean" value="true" />
+    <setting key="app.greyshirts.firewall" type="boolean" value="true" />
+    <setting key="com.opera.browser" type="boolean" value="true" />
+    <setting key="com.rg.studio.FreeFire" type="boolean" value="true" />
+    <setting key="com.facebook.lite" type="boolean" value="true" />
+    <setting key="com.google.android.calculator" type="boolean" value="true" />
+    <setting key="com.google.android.apps.magazines" type="boolean" value="true" />
+    <setting key="in.probo.pro" type="boolean" value="true" />
+    <setting key="vpn.uae" type="boolean" value="true" />
+    <setting key="com.discord" type="boolean" value="true" />
+    <setting key="com.android.soundrecorder" type="boolean" value="true" />
+  </wifi>
+  <mobile>
+    <setting key="com.fulldive.extension.dataguard" type="boolean" value="true" />
+    <setting key="com.google.android.apps.tachyon" type="boolean" value="true" />
+    <setting key="com.ionwizard.oggangs" type="boolean" value="true" />
+    <setting key="india.vpn_tap2free" type="boolean" value="true" />
+    <setting key="com.vpnbyteproxy.vpnforusa" type="boolean" value="true" />
+    <setting key="com.fast.free.unblock.secure.vpn" type="boolean" value="true" />
+    <setting key="com.banglatech.bangladeshvpn" type="boolean" value="true" />
+    <setting key="com.lazybean.vfiwalld" type="boolean" value="true" />
+    <setting key="air.com.adobe.pstouchphone" type="boolean" value="true" />
+    <setting key="com.winzo.gold" type="boolean" value="true" />
+    <setting key="com.ingame.sm.share" type="boolean" value="true" />
+    <setting key="com.esports.gamerjipro" type="boolean" value="true" />
+    <setting key="com.rummymomentVKSHBUW.CNIDBKD.jy" type="boolean" value="true" />
+    <setting key="com.linkedin.android" type="boolean" value="true" />
+    <setting key="in.amazon.mShop.android.shopping" type="boolean" value="true" />
+    <setting key="com.miui.notes" type="boolean" value="true" />
+    <setting key="com.handycloset.android.eraser" type="boolean" value="true" />
+    <setting key="com.temporary.email.pro" type="boolean" value="true" />
+    <setting key="com.test.prankpayment" type="boolean" value="true" />
+    <setting key="bin.mt.plus" type="boolean" value="true" />
+    <setting key="com.facebook.katana" type="boolean" value="true" />
+    <setting key="com.miui.weather2" type="boolean" value="true" />
+    <setting key="com.celzero.bravedns" type="boolean" value="true" />
+    <setting key="LEGION.CHRIS.SOY.TU.PAPA.GATO" type="boolean" value="true" />
+    <setting key="glip.gg" type="boolean" value="true" />
+    <setting key="com.xupstudio.volumefinetuner" type="boolean" value="true" />
+    <setting key="app.greyshirts.firewall" type="boolean" value="true" />
+    <setting key="com.opera.browser" type="boolean" value="true" />
+    <setting key="com.rg.studio.FreeFire" type="boolean" value="true" />
+    <setting key="com.facebook.lite" type="boolean" value="true" />
+    <setting key="com.google.android.calculator" type="boolean" value="true" />
+    <setting key="com.google.android.apps.magazines" type="boolean" value="true" />
+    <setting key="in.probo.pro" type="boolean" value="true" />
+    <setting key="vpn.uae" type="boolean" value="true" />
+    <setting key="com.discord" type="boolean" value="true" />
+    <setting key="com.android.soundrecorder" type="boolean" value="true" />
+  </mobile>
+  <screen_wifi />
+  <screen_other />
+  <roaming />
+  <lockdown>
+    <setting key="com.waxmoon.ma.gp" type="boolean" value="true" />
+  </lockdown>
+  <apply />
+  <notify />
+  <filter>
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="103.16.34.21" dport="6674" time="1730007432666" block="0" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="app.gsxnj.cn" dport="443" time="1730217345648" block="1" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="beacons5.gvt3.com" dport="443" time="1728706415386" block="1" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="dl-tata.freefireind.in" dport="443" time="1730217334092" block="1" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="dl.cdn.freefiremobile.com" dport="443" time="1730090888751" block="0" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="ff-sdk-grtc.freefireind.in" dport="8012" time="1730217306700" block="1" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="gin.freefireind.in" dport="80" time="1730217321805" block="1" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="in.appcenter.ms" dport="443" time="1730217200172" block="1" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="indevent.ggblueshark.com" dport="443" time="1730217328210" block="1" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="jncgkt-inapps.appsflyersdk.com" dport="443" time="1728706571415" block="1" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="m.facebook.com" dport="443" time="1727883929402" block="0" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="mtalk.google.com" dport="5228" time="1730217156684" block="1" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="play.googleapis.com" dport="443" time="1730217342797" block="1" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="rslw0r-cdn-settings.appsflyersdk.com" dport="443" time="1730217343429" block="1" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="scontent.fudr1-1.fna.fbcdn.net" dport="443" time="1727972559418" block="0" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="static.xx.fbcdn.net" dport="443" time="1727517864555" block="0" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="6" daddr="ysmteam.xyz" dport="443" time="1730007600917" block="0" />
+    <rule pkg="com.waxmoon.ma.gp" version="4" protocol="17" daddr="android.googleapis.com" dport="443" time="1730217300966" block="1" />
+    <rule pkg="com.waxmoon.ma.gp" version="6" protocol="6" daddr="android.googleapis.com" dport="443" time="1730217203295" block="1" />
+    <rule pkg="com.waxmoon.ma.gp" version="6" protocol="6" daddr="b-api.facebook.com" dport="443" time="1727529847555" block="0" />
+    <rule pkg="com.waxmoon.ma.gp" version="6" protocol="6" daddr="gateway.facebook.com" dport="443" time="1728490134038" block="0" />
+    <rule pkg="com.waxmoon.ma.gp" version="6" protocol="6" daddr="lm.facebook.com" dport="443" time="1728490136153" block="0" />
+    <rule pkg="com.waxmoon.ma.gp" version="6" protocol="6" daddr="m.facebook.com" dport="443" time="1728490131561" block="0" />
+    <rule pkg="com.waxmoon.ma.gp" version="6" protocol="6" daddr="static.xx.fbcdn.net" dport="443" time="1728486861999" block="0" />
+    <rule pkg="com.waxmoon.ma.gp" version="6" protocol="6" daddr="ysmteam.xyz" dport="443" time="1730007601126" block="0" />
+  </filter>
+  <forward />
+</netguard>
